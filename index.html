@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Academy | Kelajak Kasbini Biz bilan O'rganing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans selection:bg-indigo-500 selection:text-white">
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="bg-indigo-600 text-white p-2 rounded-xl font-bold text-xl flex items-center justify-center w-10 h-10 shadow-lg shadow-indigo-500/30">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="text-xl font-extrabold tracking-wider bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">IT-ACADEMY</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#courses" class="hover:text-indigo-400 transition">Kurslar</a>
+                <a href="https://youtu.be/WaNVfuHXxhw" class="hover:text-indigo-400 transition">Afzalliklar</a>
+                <a href="./bizhaqimizda.html" class="hover:text-indigo-400 transition">Biz haqimizda</a>
+                <a href="./aloqa.html" class="hover:text-indigo-400 transition">Aloqa</a>
+            </nav>
+            <div>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSftXKG6_wkgjerqwNdkjWqw0AZFd-gS7pwDZJGOVThfWc36bw/viewform?usp=dialog" target="_blank" class="group flex items-center justify-between bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-semibold p-4 sm:p-5 rounded-2xl transition shadow-xl shadow-indigo-600/25" class="hidden sm:inline-block bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-xl font-semibold transition shadow-lg shadow-indigo-600/25">
+                    Bepul darsga yozilish
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-600/20 blur-[120px] rounded-full pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-6">
+                        <i class="fa-solid fa-bolt text-amber-400"></i> Yangi mavsum qabuli boshlandi!
+                    </span>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-6">
+                        Kelajak kasbi <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">Dasturlashni</span> noldan o'rganing
+                    </h1>
+                    <p class="text-slate-400 text-lg mb-8 max-w-xl mx-auto lg:mx-0">
+                        Eng talabgir yo'nalishlar bo'yicha professional mutaxassislardan saboq oling, real loyihalar ustida ishlang va kafolatlangan ish o'rniga ega bo'ling.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-semibold px-8 py-4 rounded-xl shadow-xl shadow-indigo-600/30 transition text-center">
+                            Hoziroq boshlash <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#courses" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-8 py-4 rounded-xl border border-slate-700 transition text-center">
+                            Kurslarni ko'rish
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-tr from-indigo-500/20 to-cyan-500/20 p-2 rounded-3xl border border-slate-800 shadow-2xl">
+                        <div class="bg-slate-950 rounded-2xl p-6 font-mono text-sm text-slate-300 shadow-inner">
+                            <div class="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
+                                <div class="flex space-x-2">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                </div>
+                                <span class="text-slate-500 text-xs">developer.js</span>
+                            </div>
+                            <p class="text-purple-400">const <span class="text-cyan-400">futureStudent</span> = {</p>
+                            <p class="pl-4">name: <span class="text-amber-300">"Siz"</span>,</p>
+                            <p class="pl-4">goal: <span class="text-amber-300">"Senior Software Engineer"</span>,</p>
+                            <p class="pl-4">academy: <span class="text-amber-300">"IT-Academy"</span>,</p>
+                            <p class="pl-4">success: <span class="text-indigo-400">true</span></p>
+                            <p class="text-purple-400">};</p>
+                            <br>
+                            <p class="text-slate-500">// Muvaffaqiyatli karyerangiz shu yerdan boshlanadi!</p>
+                            <p class="text-cyan-400">startLearning(futureStudent);</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses" class="py-20 bg-slate-950/50 border-y border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">Bizning <span class="text-indigo-400">Kurslarimiz</span></h2>
+                <p class="text-slate-400">Sizga mos bo'lgan yo'nalishni tanlang va noldan professional darajagacha o'rganing.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between shadow-lg">
+                    <div>
+                        <div class="w-12 h-12 bg-indigo-600/10 text-indigo-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6 border border-indigo-500/20">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Frontend Dasturlash</h3>
+                        <p class="text-slate-400 text-sm mb-6">HTML, CSS, JavaScript, React.js texnologiyalari yordamida zamonaviy va interaktiv veb-saytlar yaratishni o'rganing.</p>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between text-sm text-slate-400 mb-6 border-t border-slate-800 pt-4">
+                            <span><i class="fa-regular fa-clock mr-1"></i> 6 oy</span>
+                            <span><i class="fa-solid fa-user-graduate mr-1"></i> Noldan boshlovchilar</span>
+                        </div>
+                        <a href="#contact" class="block text-center bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white py-3 rounded-xl font-semibold transition">Batafsil ma'lumot</a>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="bg-slate-900 border border-indigo-500/50 rounded-2xl p-6 hover:border-indigo-400 transition flex flex-col justify-between shadow-xl relative">
+                    <span class="absolute -top-3 right-6 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Eng ommabop</span>
+                    <div>
+                        <div class="w-12 h-12 bg-cyan-600/10 text-cyan-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6 border border-cyan-500/20">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Backend Dasturlash</h3>
+                        <p class="text-slate-400 text-sm mb-6">Node.js, Python/Django, Ma'lumotlar bazasi va API lar yaratish hamda server arxitekturasini to'liq o'zlashtiring.</p>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between text-sm text-slate-400 mb-6 border-t border-slate-800 pt-4">
+                            <span><i class="fa-regular fa-clock mr-1"></i> 7 oy</span>
+                            <span><i class="fa-solid fa-user-graduate mr-1"></i> Tajribasi borlar uchun</span>
+                        </div>
+                        <a href="#contact" class="block text-center bg-indigo-600 hover:bg-indigo-500 text-white py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-600/20">Batafsil ma'lumot</a>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between shadow-lg">
+                    <div>
+                        <div class="w-12 h-12 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6 border border-purple-500/20">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Flutter Mobile Dasturlash</h3>
+                        <p class="text-slate-400 text-sm mb-6">Bitta kod bazasi yordamida ham Android, ham iOS uchun zamonaviy mobil ilovalar yaratishni o'rganing.</p>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between text-sm text-slate-400 mb-6 border-t border-slate-800 pt-4">
+                            <span><i class="fa-regular fa-clock mr-1"></i> 5 oy</span>
+                            <span><i class="fa-solid fa-user-graduate mr-1"></i> Noldan boshlovchilar</span>
+                        </div>
+                        <a href="#contact" class="block text-center bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white py-3 rounded-xl font-semibold transition">Batafsil ma'lumot</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">Nega aynan <span class="text-indigo-400">Bizni tanlashadi?</span></h2>
+                <p class="text-slate-400">Sizning muvaffaqiyatli IT-mutaxassis bo'lib yetishuvingiz uchun barcha sharoitlar yaratilgan.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
+                    <div class="text-indigo-400 text-2xl mb-4"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Tajribali ustozlar</h3>
+                    <p class="text-slate-400 text-sm">Xalqaro kompaniyalarda ish tajribasiga ega bo'lgan malakali mentorlar.</p>
+                </div>
+                <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="font-bold text-lg mb-2">80% Amaliyot</h3>
+                    <p class="text-slate-400 text-sm">Nazariyadan ko'ra real loyihalar ustida ko'proq ishlash va portfolio yig'ish.</p>
+                </div>
+                <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
+                    <div class="text-purple-400 text-2xl mb-4"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Kafolatlangan ish</h3>
+                    <p class="text-slate-400 text-sm">Eng yaxshi bitiruvchilarimizni IT-kompaniyalarga ishga joylashishiga ko'maklashamiz.</p>
+                </div>
+                <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
+                    <div class="text-amber-400 text-2xl mb-4"><i class="fa-solid fa-certificate"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Rasmiy Sertifikat</h3>
+                    <p class="text-slate-400 text-sm">Kursni muvaffaqiyatli tamomlaganingizdan so'ng maxsus sertifikat beriladi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / LEAD FORM SECTION -->
+    <section id="contact" class="py-20 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-indigo-900/30 to-cyan
